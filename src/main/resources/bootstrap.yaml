@@ -4,7 +4,7 @@ spring:
 
  cloud:
   config:
-   uri: http://config-server:8888/api/v1
+   uri: http://sgm-config-server.herokuapp.com/api/v1
 
  profiles:
   active: prod
