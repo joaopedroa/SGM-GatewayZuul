@@ -25,7 +25,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	@Autowired
 	private JwtTokenStore tokenStore;
 
-	private static final String[] PUBLIC = { "/sgm-oauth-service/api/v1/oauth/token", "/sgm-georeferenciamento-service/api/v1/h2-console", "/health" };
+	private static final String[] PUBLIC = { "/sgm-oauth-service/api/v1/oauth/token", "/sgm-oauth-service/api/v1/health", "/sgm-georeferenciamento-service/api/v1/h2-console", "/health" };
 
 	private static final String[] OPERATOR_ADMIN = { "/sgm-georeferenciamento-service/**" };
 
